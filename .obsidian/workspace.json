@@ -170,6 +170,8 @@
   },
   "active": "da61db7b5f735199",
   "lastOpenFiles": [
+    "layouts/partials/index.html",
+    "layouts/partials",
     "public/blog/what-is-docker/index.html",
     "public/blog/what-is-docker",
     "public/blog/template/index.html",
@@ -183,8 +185,6 @@
     "public/blog/fe/axios-instance-interceptor-method",
     "public/blog/fe",
     "content/blog/FE",
-    "public/tags/post/index.xml",
-    "public/tags/post/index.html",
-    "public/tags/post"
+    "public/tags/post/index.xml"
   ]
 }
