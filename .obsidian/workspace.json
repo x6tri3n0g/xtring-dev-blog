@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/FE/axios-instance-interceptor-method.md",
+                "file": "content/blog/axios-instance-interceptor-method.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/blog/FE/axios-instance-interceptor-method.md",
+                "file": "content/blog/axios-instance-interceptor-method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/FE/axios-instance-interceptor-method.md",
+                "file": "content/blog/axios-instance-interceptor-method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/FE/axios-instance-interceptor-method.md",
+                "file": "content/blog/axios-instance-interceptor-method.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -168,9 +168,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "59f5a2105794fc72",
+  "active": "da61db7b5f735199",
   "lastOpenFiles": [
+    "content/blog/what-is-docker.md",
+    "content/blog/도커란 무엇인가?.md",
+    "content/blog/Template.md",
     "content/blog/axios-instance-interceptor-method.md",
+    "content/blog/FE/axios-instance-interceptor-method.md",
     "public/blog/fe/axios-instance-interceptor-method/index.html",
     "public/blog/fe/axios-instance-interceptor-method",
     "public/blog/fe",
