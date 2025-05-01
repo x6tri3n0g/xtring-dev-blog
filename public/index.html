@@ -1,3 +1,288 @@
-<!doctype html><html lang=en-us><head><meta name=generator content="Hugo 0.147.0"><meta http-equiv=X-Clacks-Overhead content="GNU Terry Pratchett"><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>My New Hugo Site | My New Hugo Site</title>
-<meta name=title content="My New Hugo Site"><meta name=description content><meta name=keywords content="post,"><meta property="og:url" content="https://example.org/"><meta property="og:site_name" content="My New Hugo Site"><meta property="og:title" content="My New Hugo Site"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="My New Hugo Site"><meta itemprop=name content="My New Hugo Site"><meta itemprop=datePublished content="2025-04-14T00:00:00+00:00"><meta itemprop=dateModified content="2025-04-14T00:00:00+00:00"><meta name=referrer content="no-referrer-when-downgrade"><link rel=alternate type=application/rss+xml href=https://example.org/index.xml title="My New Hugo Site"><style>:root{--width:720px;--font-main:Verdana, sans-serif;--font-secondary:Verdana, sans-serif;--font-scale:1em;--background-color:#fff;--heading-color:#222;--text-color:#444;--link-color:#3273dc;--visited-color:#8b6fcb;--code-background-color:#f2f2f2;--code-color:#222;--blockquote-color:#222}@media(prefers-color-scheme:dark){:root{--background-color:#01242e;--heading-color:#eee;--text-color:#ddd;--link-color:#8cc2dd;--visited-color:#8b6fcb;--code-background-color:#000;--code-color:#ddd;--blockquote-color:#ccc}}body{font-family:var(--font-secondary);font-size:var(--font-scale);margin:auto;padding:20px;max-width:var(--width);text-align:left;background-color:var(--background-color);word-wrap:break-word;overflow-wrap:break-word;line-height:1.5;color:var(--text-color)}h1,h2,h3,h4,h5,h6{font-family:var(--font-main);color:var(--heading-color)}a{color:var(--link-color);cursor:pointer;text-decoration:none}a:hover{text-decoration:underline}nav a{margin-right:8px}strong,b{color:var(--heading-color)}button{margin:0;cursor:pointer}time{font-family:monospace;font-style:normal;font-size:15px}main{line-height:1.6}table{width:100%}hr{border:0;border-top:1px dashed}img{max-width:100%}code{font-family:monospace;padding:2px;background-color:var(--code-background-color);color:var(--code-color);border-radius:3px}blockquote{border-left:1px solid #999;color:var(--code-color);padding-left:20px;font-style:italic}footer{padding:25px 0;text-align:center}.title:hover{text-decoration:none}.title h1{font-size:1.5em}.inline{width:auto!important}.highlight,.code{padding:1px 15px;background-color:var(--code-background-color);color:var(--code-color);border-radius:3px;margin-block-start:1em;margin-block-end:1em;overflow-x:auto}ul.blog-posts{list-style-type:none;padding:unset}ul.blog-posts li{display:flex}ul.blog-posts li span{flex:0 0 130px}ul.blog-posts li a:visited{color:var(--visited-color)}</style></head><body><header><a href=/ class=title><h2>My New Hugo Site</h2></a><nav><a href=/>Home</a>
-<a href=/blog>Blog</a></nav></header><main></main><footer>Made with <a href=https://github.com/janraasch/hugo-bearblog/>Hugo ʕ•ᴥ•ʔ Bear</a></footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta name="generator" content="Hugo 0.147.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>xtring&#39;s dev blog | xtring&#39;s dev blog</title>
+<meta name="title" content="xtring&#39;s dev blog" />
+<meta name="description" content="" />
+<meta name="keywords" content="post," />
+
+
+<meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="xtring&#39;s dev blog">
+  <meta property="og:title" content="xtring&#39;s dev blog">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="xtring&#39;s dev blog">
+
+
+
+
+  <meta itemprop="name" content="xtring&#39;s dev blog">
+  <meta itemprop="datePublished" content="2025-04-20T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-04-20T00:00:00+00:00">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="xtring's dev blog" />
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav {
+    padding: 6px;
+  }
+
+  nav a {
+    margin-right: 8px;
+    background-color: #01242e40;
+    border-radius: 4px;
+    padding: 4px 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 4px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 4px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .wrapper_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h2 {
+    color: #ffffff60;
+    font-size: 1.5em;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .title > h2:hover {
+    color: #f2f2f2;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+</style>
+
+</head>
+
+<body>
+  <header><div class="wrapper_title">
+  <a href="/" class="title">
+    <h2>xtring&#39;s dev blog</h2> 
+  </a>
+  <nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</div>
+
+</header>
+  <main> 
+<section>
+  <h2>👋 Hi, I'm <strong>Xtring</strong> (Hyun Hwang)</h2>
+
+  <div>
+    <p>I'm into:</p>
+    <ul>
+      <li>
+        🧑🏻‍💻 Front-end development that solves real problems and crafts beautiful
+        user experiences
+      </li>
+      <li>🎸 Enjoying, playing, and getting lost in band music</li>
+      <li>🏍️ Riding into the wind</li>
+    </ul>
+
+    <p>
+      비즈니스의 문제를 풀어내고, 감각적인 UX/UI를 만들어내는 걸 즐깁니다.<br />
+      음악과 다양한 시도 속에서 세상을 더 깊고 넓게 바라보는 눈을 키워가고
+      있어요.
+    </p>
+  </div>
+
+  <ul>
+    <li>🏄‍♂️ 비즈니스 성장을 이끄는 제품을 만드는 데에 보람을 느껴요.</li>
+    <li>💫 사용자에게 편안함을 주는 UX/UI를 고민하는 걸 좋아해요.</li>
+    <li>🌐 사람과 사람을 연결하는 웹 기술에 매력을 느낍니다.</li>
+    <li>📊 데이터를 잘 써서 재밌는 아이디어를 떠올리는 걸 즐겨요.</li>
+    <li>🧪 최신 기술을 제품에 녹여내며 더 나은 경험을 만들고 싶어요.</li>
+  </ul>
+
+  <blockquote>
+    <p>
+      <em
+        >“디자인에서의 완벽함은 더할 것이 없을 때가 아니라,<br />
+        더 이상 뺄 것이 없을 때 완성된다.”</em
+      >
+    </p>
+    <p>
+      <small>
+        — Perfection [in design] is achieved, not when there is nothing more to
+        add,<br />
+        but when there is nothing left to take away.<br />
+        <cite>– Antoine de Saint-Exupéry</cite>
+      </small>
+    </p>
+  </blockquote>
+</section>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>
