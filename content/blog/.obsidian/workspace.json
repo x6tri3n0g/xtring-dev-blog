@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "6d634f236ac7aeaa",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5bf5da079c6bb6a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5061ee65c71b425",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "axios-instance-interceptor-method.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "axios-instance-interceptor-method"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6dd2a1040a6e9795",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d920dcf76d4d53f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7baad250872665f6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "71b1db7be27cf169",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "cf83f0dfb2aefe31",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "410b187302650923",
+    "type": "split",
+    "children": [
+      {
+        "id": "012c3446f7006e10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d71917e073cff964",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "axios-instance-interceptor-method.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "axios-instance-interceptor-method 의 백링크"
+            }
+          },
+          {
+            "id": "209ac0debf298712",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "axios-instance-interceptor-method.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "axios-instance-interceptor-method 의 나가는 링크"
+            }
+          },
+          {
+            "id": "54e0b02410429542",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "d2b5edf13fb37c89",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "axios-instance-interceptor-method.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "axios-instance-interceptor-method 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "d5061ee65c71b425",
+  "lastOpenFiles": []
+}
