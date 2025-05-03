@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on xtring&#39;s dev blog</title>
+    <link>http://localhost:1313/tags/test/</link>
+    <description>Recent content in Test on xtring&#39;s dev blog</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <lastBuildDate>Thu, 30 Jun 1994 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>title</title>
+      <link>http://localhost:1313/blog/template/</link>
+      <pubDate>Thu, 30 Jun 1994 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/template/</guid>
+      <description>&lt;h2 id=&#34;이미지-첨부-방법&#34;&gt;이미지 첨부 방법&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;content/blog-images/&amp;lt;image-name&amp;gt;.png&lt;/code&gt; 추가&lt;/li&gt;&#xA;&lt;li&gt;Markdown 파일에 이미지 경로를 추가 할때는 &lt;code&gt;../../blog-images/&amp;lt;image-name&amp;gt;.png&lt;/code&gt; 로 설정&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

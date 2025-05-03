@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="ko">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>도커란 무엇인가? | xtring&#39;s dev blog</title>
-<meta name="title" content="도커란 무엇인가?" />
+<title>1. 도커란 무엇인가? | xtring&#39;s dev blog</title>
+<meta name="title" content="1. 도커란 무엇인가?" />
 <meta name="description" content="Section 1) 도커란 무엇인가?
 도커의 정체
 
@@ -58,27 +58,27 @@ MySQL 컨테이너 만들기 -&gt; MySQL 이미지 사용
 데이터나 프로그램을 독립된 환경에 격리해야하는 이유
 
 데이터나 프로그램을 독립된 환경에 격리해야하는 이유?" />
-<meta name="keywords" content="post," />
+<meta name="keywords" content="docker," />
 
 
 <meta property="og:url" content="http://localhost:1313/blog/what-is-docker/">
   <meta property="og:site_name" content="xtring&#39;s dev blog">
-  <meta property="og:title" content="도커란 무엇인가?">
+  <meta property="og:title" content="1. 도커란 무엇인가?">
   <meta property="og:description" content="Section 1) 도커란 무엇인가? 도커의 정체 도커를 잘 모르면 “편리해 보이지만, 뭔지 잘 모르겠다&#34;는 이미지를 가지고 있다.
 ‘도커’ 개발 초기에는 BE를 중심으로 개발환경에서 사용됐으나, 지금은 운영 환경은 물론이고 FE의 개발환경에도 널리 도입되었다. -&gt; 이제는 많은 곳에서 도커가 사용중이다.
 도커는 ‘데이터 또는 프로그램을 격리시키는’ 기능을 제공한다 주로 서버에서 이용하기도 하지만 클라이언트 컴퓨터에서도 사용됨 도커는 다양한 프로그램(소프트웨어)과 데이터를 각각 독립된 환경에 격리하는 기능을 제공 컨테이너와 도커 엔진 컨테이너: 서버 환경을 ‘조립형 창고’와 같이 분할시킨 공간 도커: 컨테이너를 다루는 기능을 다루는 기능을 제공하는 소프트웨어 도커 엔진: 도커를 사용하기 위한 소프트웨어 본체, 컨테이너를 생성하고 구동시키는 역할 컨테이너를 만들려면 이미지가 필요함 컨테이너를 만들기 위해서는 이미지와 도커 엔진이 필요 이미지의 종류는 다양 아파치 컨테이너 만들기 -&gt; 아파치 이미지 사용 MySQL 컨테이너 만들기 -&gt; MySQL 이미지 사용 하나의 이미지로 여러개의 컨테이너를 생성할 수 있음 용량이 허용하는한 하나의 도커에서 여러 개의 컨테이너 생성 가능 도커는 리눅스 컴퓨터에서 사용 도커를 사용하기 위한 제약 사항 리눅스 운영체제 윈도우나 macOS에서도 도커를 구동할 수는 있지만, 이 경우 내부적(?)으로 리눅스가 사용됨 ‘컨테이너에서 동작시킬 프로그램도 리눅스용 프로그램’ 도커가 리눅스 운영체제에서 사용하는 것을 전제로 만들짐 데이터나 프로그램을 독립된 환경에 격리해야하는 이유 데이터나 프로그램을 독립된 환경에 격리해야하는 이유?">
-  <meta property="og:locale" content="en_us">
+  <meta property="og:locale" content="ko">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
     <meta property="article:published_time" content="2025-04-20T00:00:00+00:00">
     <meta property="article:modified_time" content="2025-04-20T00:00:00+00:00">
-    <meta property="article:tag" content="Post">
+    <meta property="article:tag" content="Docker">
 
 
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="도커란 무엇인가?">
+  <meta name="twitter:title" content="1. 도커란 무엇인가?">
   <meta name="twitter:description" content="Section 1) 도커란 무엇인가? 도커의 정체 도커를 잘 모르면 “편리해 보이지만, 뭔지 잘 모르겠다&#34;는 이미지를 가지고 있다.
 ‘도커’ 개발 초기에는 BE를 중심으로 개발환경에서 사용됐으나, 지금은 운영 환경은 물론이고 FE의 개발환경에도 널리 도입되었다. -&gt; 이제는 많은 곳에서 도커가 사용중이다.
 도커는 ‘데이터 또는 프로그램을 격리시키는’ 기능을 제공한다 주로 서버에서 이용하기도 하지만 클라이언트 컴퓨터에서도 사용됨 도커는 다양한 프로그램(소프트웨어)과 데이터를 각각 독립된 환경에 격리하는 기능을 제공 컨테이너와 도커 엔진 컨테이너: 서버 환경을 ‘조립형 창고’와 같이 분할시킨 공간 도커: 컨테이너를 다루는 기능을 다루는 기능을 제공하는 소프트웨어 도커 엔진: 도커를 사용하기 위한 소프트웨어 본체, 컨테이너를 생성하고 구동시키는 역할 컨테이너를 만들려면 이미지가 필요함 컨테이너를 만들기 위해서는 이미지와 도커 엔진이 필요 이미지의 종류는 다양 아파치 컨테이너 만들기 -&gt; 아파치 이미지 사용 MySQL 컨테이너 만들기 -&gt; MySQL 이미지 사용 하나의 이미지로 여러개의 컨테이너를 생성할 수 있음 용량이 허용하는한 하나의 도커에서 여러 개의 컨테이너 생성 가능 도커는 리눅스 컴퓨터에서 사용 도커를 사용하기 위한 제약 사항 리눅스 운영체제 윈도우나 macOS에서도 도커를 구동할 수는 있지만, 이 경우 내부적(?)으로 리눅스가 사용됨 ‘컨테이너에서 동작시킬 프로그램도 리눅스용 프로그램’ 도커가 리눅스 운영체제에서 사용하는 것을 전제로 만들짐 데이터나 프로그램을 독립된 환경에 격리해야하는 이유 데이터나 프로그램을 독립된 환경에 격리해야하는 이유?">
@@ -86,187 +86,216 @@ MySQL 컨테이너 만들기 -&gt; MySQL 이미지 사용
 
 
 
-  <meta itemprop="name" content="도커란 무엇인가?">
+  <meta itemprop="name" content="1. 도커란 무엇인가?">
   <meta itemprop="description" content="Section 1) 도커란 무엇인가? 도커의 정체 도커를 잘 모르면 “편리해 보이지만, 뭔지 잘 모르겠다&#34;는 이미지를 가지고 있다.
 ‘도커’ 개발 초기에는 BE를 중심으로 개발환경에서 사용됐으나, 지금은 운영 환경은 물론이고 FE의 개발환경에도 널리 도입되었다. -&gt; 이제는 많은 곳에서 도커가 사용중이다.
 도커는 ‘데이터 또는 프로그램을 격리시키는’ 기능을 제공한다 주로 서버에서 이용하기도 하지만 클라이언트 컴퓨터에서도 사용됨 도커는 다양한 프로그램(소프트웨어)과 데이터를 각각 독립된 환경에 격리하는 기능을 제공 컨테이너와 도커 엔진 컨테이너: 서버 환경을 ‘조립형 창고’와 같이 분할시킨 공간 도커: 컨테이너를 다루는 기능을 다루는 기능을 제공하는 소프트웨어 도커 엔진: 도커를 사용하기 위한 소프트웨어 본체, 컨테이너를 생성하고 구동시키는 역할 컨테이너를 만들려면 이미지가 필요함 컨테이너를 만들기 위해서는 이미지와 도커 엔진이 필요 이미지의 종류는 다양 아파치 컨테이너 만들기 -&gt; 아파치 이미지 사용 MySQL 컨테이너 만들기 -&gt; MySQL 이미지 사용 하나의 이미지로 여러개의 컨테이너를 생성할 수 있음 용량이 허용하는한 하나의 도커에서 여러 개의 컨테이너 생성 가능 도커는 리눅스 컴퓨터에서 사용 도커를 사용하기 위한 제약 사항 리눅스 운영체제 윈도우나 macOS에서도 도커를 구동할 수는 있지만, 이 경우 내부적(?)으로 리눅스가 사용됨 ‘컨테이너에서 동작시킬 프로그램도 리눅스용 프로그램’ 도커가 리눅스 운영체제에서 사용하는 것을 전제로 만들짐 데이터나 프로그램을 독립된 환경에 격리해야하는 이유 데이터나 프로그램을 독립된 환경에 격리해야하는 이유?">
   <meta itemprop="datePublished" content="2025-04-20T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-04-20T00:00:00+00:00">
-  <meta itemprop="wordCount" content="795">
-  <meta itemprop="keywords" content="Post">
+  <meta itemprop="wordCount" content="798">
+  <meta itemprop="keywords" content="Docker">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
   :root {
-      --width: 720px;
-      --font-main: Verdana, sans-serif;
-      --font-secondary: Verdana, sans-serif;
-      --font-scale: 1em;
-      --background-color: #fff;
-      --heading-color: #222;
-      --text-color: #444;
-      --link-color: #3273dc;
-      --visited-color:  #8b6fcb;
-      --code-background-color: #f2f2f2;
-      --code-color: #222;
-      --blockquote-color: #222;
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
   }
 
   @media (prefers-color-scheme: dark) {
-      :root {
-          --background-color: #01242e;
-          --heading-color: #eee;
-          --text-color: #ddd;
-          --link-color: #8cc2dd;
-          --visited-color:  #8b6fcb;
-          --code-background-color: #000;
-          --code-color: #ddd;
-          --blockquote-color: #ccc;
-      }
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
   }
 
   body {
-      font-family: var(--font-secondary);
-      font-size: var(--font-scale);
-      margin: auto;
-      padding: 20px;
-      max-width: var(--width);
-      text-align: left;
-      background-color: var(--background-color);
-      word-wrap: break-word;
-      overflow-wrap: break-word;
-      line-height: 1.5;
-      color: var(--text-color);
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
   }
 
-  h1, h2, h3, h4, h5, h6 {
-      font-family: var(--font-main);
-      color: var(--heading-color);
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
   }
 
   a {
-      color: var(--link-color);
-      cursor: pointer;
-      text-decoration: none;
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
   }
 
   a:hover {
-      text-decoration: underline;
+    text-decoration: underline;
+  }
+
+  nav {
+    padding: 6px;
   }
 
   nav a {
-      margin-right: 8px;
+    margin-right: 8px;
+    background-color: #01242e40;
+    border-radius: 4px;
+    padding: 4px 8px;
   }
 
-  strong, b {
-      color: var(--heading-color);
+  strong,
+  b {
+    color: var(--heading-color);
   }
 
   button {
-      margin: 0;
-      cursor: pointer;
+    margin: 0;
+    cursor: pointer;
   }
 
   time {
-   	font-family: monospace;
-    	font-style: normal;
-    	font-size: 15px;
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
   }
 
   main {
-      line-height: 1.6;
+    line-height: 1.6;
   }
 
   table {
-      width: 100%;
+    width: 100%;
   }
 
   hr {
-      border: 0;
-      border-top: 1px dashed;
+    border: 0;
+    border-top: 1px dashed;
   }
 
   img {
-      max-width: 100%;
+    max-width: 100%;
   }
 
   code {
-      font-family: monospace;
-      padding: 2px;
-      background-color: var(--code-background-color);
-      color: var(--code-color);
-      border-radius: 3px;
+    font-family: monospace;
+    padding: 4px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 4px;
   }
 
   blockquote {
-      border-left: 1px solid #999;
-      color: var(--code-color);
-      padding-left: 20px;
-      font-style: italic;
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
   }
 
   footer {
-      padding: 25px 0;
-      text-align: center;
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .wrapper_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .title:hover {
-      text-decoration: none;
+    text-decoration: none;
   }
 
-  .title h1 {
-      font-size: 1.5em;
+  .title h2 {
+    color: #ffffff60;
+    font-size: 1.5em;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .title > h2:hover {
+    color: #f2f2f2;
   }
 
   .inline {
-      width: auto !important;
+    width: auto !important;
   }
 
-  .highlight, .code {
-      padding: 1px 15px;
-      background-color: var(--code-background-color);
-      color: var(--code-color);
-      border-radius: 3px;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      overflow-x: auto;
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
   }
 
    
   ul.blog-posts {
-      list-style-type: none;
-      padding: unset;
+    list-style-type: none;
+    padding: unset;
   }
 
   ul.blog-posts li {
-      display: flex;
+    display: flex;
   }
 
   ul.blog-posts li span {
-      flex: 0 0 130px;
+    flex: 0 0 130px;
   }
 
   ul.blog-posts li a:visited {
-      color: var(--visited-color);
+    color: var(--visited-color);
   }
 </style>
 
 </head>
 
 <body>
-  <header><a href="/" class="title">
-  <h2>xtring&#39;s dev blog</h2>
-</a>
-<nav><a href="/">Home</a>
+  <header><div class="wrapper_title">
+  <a href="/" class="title">
+    <h2>xtring&#39;s dev blog</h2> 
+  </a>
+  <nav><a href="/">Home</a>
 
 
 <a href="/blog">Blog</a>
 
 </nav>
+</div>
+
 </header>
   <main>
 
-<h1>도커란 무엇인가?</h1>
+<h1>1. 도커란 무엇인가?</h1>
 <p>
   <i>
     <time datetime='2025-04-20'>
@@ -374,17 +403,8 @@ MySQL 컨테이너 만들기 -&gt; MySQL 이미지 사용
 </li>
 </ul>
 </li>
-<li>&lsquo;물리적 컴퓨터로서의 서버&rsquo;
-<ul>
-<li>예) &ldquo;신입 직원이 올 테니 저 책상 위의 서버 좀 치워라&rdquo;</li>
-<li>실물(; 컴퓨터)
-<ul>
-<li>데스크톱 컴퓨터와 같이 어딘가에 물리적으로 존재하는 컴퓨터
+<li>&lsquo;물리적 컴퓨터로서의 서버&rsquo; - 예) &ldquo;신입 직원이 올 테니 저 책상 위의 서버 좀 치워라&rdquo; - 실물(; 컴퓨터) - 데스크톱 컴퓨터와 같이 어딘가에 물리적으로 존재하는 컴퓨터
 -&gt; <strong>이렇게 의미를 구분하는 이유는 하나의 &lsquo;물리적 컴퓨터로서의 서버&rsquo;에 여러 개의 &lsquo;기능적 의미의 서버&rsquo;를 함께 둘 수 있기 때문이다.</strong></li>
-</ul>
-</li>
-</ul>
-</li>
 </ul>
 <p>서버 컴퓨터는 결국 우리가 사용하는 &lsquo;컴퓨터&rsquo;다. 개인용 컴퓨터는 개인이 사용하지만 <strong>서버는 여러 사람이 원격으로 접근해 사용</strong>한다.</p>
 <ul>
@@ -474,7 +494,7 @@ MySQL 컨테이너 만들기 -&gt; MySQL 이미지 사용
 </content>
 <p>
   
-  <a href="http://localhost:1313/tags/post/">#Post</a>
+  <a href="http://localhost:1313/tags/docker/">#Docker</a>
   
 </p>
 
@@ -482,7 +502,7 @@ MySQL 컨테이너 만들기 -&gt; MySQL 이미지 사용
   <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
 </footer>
 
-    
+  
 </body>
 
 </html>

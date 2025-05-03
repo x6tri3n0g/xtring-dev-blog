@@ -1,4 +1,4 @@
 baseURL = 'https://xtring-dev-blog.pages.dev/'
-languageCode = 'en-us'
+languageCode = 'ko'
 title = "xtring's dev blog"
 theme = 'hugo-bearblog'  

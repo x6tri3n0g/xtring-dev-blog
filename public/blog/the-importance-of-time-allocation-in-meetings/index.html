@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>미팅에서 의제 항목마다 시간을 미리 배분하는 것의 중요성 | xtring&#39;s dev blog</title>
+<meta name="title" content="미팅에서 의제 항목마다 시간을 미리 배분하는 것의 중요성" />
+<meta name="description" content="@한기용, Greep
+유데미에는 PAO라고 해서 모든 미팅에 다음 세 가지를 꼭 적으라고 했었다.
+
+Purpose: 미팅의 목적이 무엇인가?
+Agenda: 미팅에서 구체적으로 이야기할 아이템들이 무엇인가?
+Outcome: 미팅을 통해 결정하고 싶은 것이 무엇인가?
+
+Outcome과 Purpose가 비슷한 부분이 있지만 Purpose는 조금더 배경과 컨텍스트에 관한 것이라면 Outcome은 더 구체적으로 뭘 결정할지에 관한 것이다.
+그리고 여기에 한걸음 더 나간다면 Agenda에는 항목별로 시간 할당을 해야하는 것이 좋다. 예를 들어 &ldquo;회식&quot;이란 항목이 있다면 최대 5분 이렇게 미리 지정하고 가능하면 담당자 결정 이런 식으로 구체적으로 의제에 써주면 더 좋다." />
+<meta name="keywords" content="records," />
+
+
+<meta property="og:url" content="http://localhost:1313/blog/the-importance-of-time-allocation-in-meetings/">
+  <meta property="og:site_name" content="xtring&#39;s dev blog">
+  <meta property="og:title" content="미팅에서 의제 항목마다 시간을 미리 배분하는 것의 중요성">
+  <meta property="og:description" content="@한기용, Greep
+유데미에는 PAO라고 해서 모든 미팅에 다음 세 가지를 꼭 적으라고 했었다.
+Purpose: 미팅의 목적이 무엇인가? Agenda: 미팅에서 구체적으로 이야기할 아이템들이 무엇인가? Outcome: 미팅을 통해 결정하고 싶은 것이 무엇인가? Outcome과 Purpose가 비슷한 부분이 있지만 Purpose는 조금더 배경과 컨텍스트에 관한 것이라면 Outcome은 더 구체적으로 뭘 결정할지에 관한 것이다.
+그리고 여기에 한걸음 더 나간다면 Agenda에는 항목별로 시간 할당을 해야하는 것이 좋다. 예를 들어 “회식&#34;이란 항목이 있다면 최대 5분 이렇게 미리 지정하고 가능하면 담당자 결정 이런 식으로 구체적으로 의제에 써주면 더 좋다.">
+  <meta property="og:locale" content="ko">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2024-11-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-11-01T00:00:00+00:00">
+    <meta property="article:tag" content="Records">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="미팅에서 의제 항목마다 시간을 미리 배분하는 것의 중요성">
+  <meta name="twitter:description" content="@한기용, Greep
+유데미에는 PAO라고 해서 모든 미팅에 다음 세 가지를 꼭 적으라고 했었다.
+Purpose: 미팅의 목적이 무엇인가? Agenda: 미팅에서 구체적으로 이야기할 아이템들이 무엇인가? Outcome: 미팅을 통해 결정하고 싶은 것이 무엇인가? Outcome과 Purpose가 비슷한 부분이 있지만 Purpose는 조금더 배경과 컨텍스트에 관한 것이라면 Outcome은 더 구체적으로 뭘 결정할지에 관한 것이다.
+그리고 여기에 한걸음 더 나간다면 Agenda에는 항목별로 시간 할당을 해야하는 것이 좋다. 예를 들어 “회식&#34;이란 항목이 있다면 최대 5분 이렇게 미리 지정하고 가능하면 담당자 결정 이런 식으로 구체적으로 의제에 써주면 더 좋다.">
+
+
+
+
+  <meta itemprop="name" content="미팅에서 의제 항목마다 시간을 미리 배분하는 것의 중요성">
+  <meta itemprop="description" content="@한기용, Greep
+유데미에는 PAO라고 해서 모든 미팅에 다음 세 가지를 꼭 적으라고 했었다.
+Purpose: 미팅의 목적이 무엇인가? Agenda: 미팅에서 구체적으로 이야기할 아이템들이 무엇인가? Outcome: 미팅을 통해 결정하고 싶은 것이 무엇인가? Outcome과 Purpose가 비슷한 부분이 있지만 Purpose는 조금더 배경과 컨텍스트에 관한 것이라면 Outcome은 더 구체적으로 뭘 결정할지에 관한 것이다.
+그리고 여기에 한걸음 더 나간다면 Agenda에는 항목별로 시간 할당을 해야하는 것이 좋다. 예를 들어 “회식&#34;이란 항목이 있다면 최대 5분 이렇게 미리 지정하고 가능하면 담당자 결정 이런 식으로 구체적으로 의제에 써주면 더 좋다.">
+  <meta itemprop="datePublished" content="2024-11-01T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-11-01T00:00:00+00:00">
+  <meta itemprop="wordCount" content="149">
+  <meta itemprop="keywords" content="Records">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav {
+    padding: 6px;
+  }
+
+  nav a {
+    margin-right: 8px;
+    background-color: #01242e40;
+    border-radius: 4px;
+    padding: 4px 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 4px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 4px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .wrapper_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h2 {
+    color: #ffffff60;
+    font-size: 1.5em;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .title > h2:hover {
+    color: #f2f2f2;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+</style>
+
+</head>
+
+<body>
+  <header><div class="wrapper_title">
+  <a href="/" class="title">
+    <h2>xtring&#39;s dev blog</h2> 
+  </a>
+  <nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</div>
+
+</header>
+  <main>
+
+<h1>미팅에서 의제 항목마다 시간을 미리 배분하는 것의 중요성</h1>
+<p>
+  <i>
+    <time datetime='2024-11-01'>
+      01 Nov, 2024
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>@한기용, Greep</p>
+<p>유데미에는 <code>PAO</code>라고 해서 모든 미팅에 다음 세 가지를 꼭 적으라고 했었다.</p>
+<ol>
+<li><code>Purpose</code>: 미팅의 목적이 무엇인가?</li>
+<li><code>Agenda</code>: 미팅에서 구체적으로 이야기할 아이템들이 무엇인가?</li>
+<li><code>Outcome</code>: 미팅을 통해 결정하고 싶은 것이 무엇인가?</li>
+</ol>
+<p>Outcome과 Purpose가 비슷한 부분이 있지만 Purpose는 조금더 배경과 컨텍스트에 관한 것이라면 Outcome은 더 구체적으로 뭘 결정할지에 관한 것이다.</p>
+<p>그리고 여기에 한걸음 더 나간다면 Agenda에는 항목별로 시간 할당을 해야하는 것이 좋다. 예를 들어 &ldquo;회식&quot;이란 항목이 있다면 최대 5분 이렇게 미리 지정하고 가능하면 담당자 결정 이런 식으로 구체적으로 의제에 써주면 더 좋다.</p>
+<p>시간 할당이 중요한 이유는 안 그러면 그리 중요하지 않은 아이템에 사람들이 많은 시간을 쓰기 때문이다.(보통 어려운 문제는 별로 말이 없지만) 예를 들어 의견 내기 쉬운 주에인 &ldquo;회식&quot;은 모두 한 마디씩 어디서 할지 의견내다가 시간을 불필요하게 많이 낭비할 수 있기 때문이다. 이건 그냥 누가 팔로우업 할지 정하는 정도록 넘어가는 것이 맞다.</p>
+<p>미팅에서 의제 안건별로 시간을 어떻게 쓰고 있는지 꼭 살펴보고 중요도에 맞춰 조정하는 것이 모두의 시간을 아껴쓰는 방법 중의 하나이다.</p>
+
+</content>
+<p>
+  
+  <a href="http://localhost:1313/tags/records/">#Records</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+  
+</body>
+
+</html>
