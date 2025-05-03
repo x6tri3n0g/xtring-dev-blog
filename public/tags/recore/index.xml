@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recore on xtring&#39;s dev blog</title>
+    <link>http://localhost:1313/tags/recore/</link>
+    <description>Recent content in Recore on xtring&#39;s dev blog</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <lastBuildDate>Sat, 21 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/recore/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5년차 FE 개발자가 되기까지 - 삶의 지도</title>
+      <link>http://localhost:1313/blog/before-5-years/</link>
+      <pubDate>Sat, 21 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/before-5-years/</guid>
+      <description>&lt;h1 id=&#34;과거부터-현재까지&#34;&gt;과거부터 현재까지&lt;/h1&gt;&#xA;&lt;p&gt;돌이켜보면 생각하는 것을 현실로 만들어내는 것을 좋아해오고 있다.&lt;br&gt;&#xA;어릴적에는 노트에 게임을 만들거나 레고로 무언가를 만들고 과학 발명 경진대회에 나갔다.&lt;br&gt;&#xA;성인이 된 이후에 밴드를 통해 작곡을 하고 창업 동아리를 운영하기도 했다.&lt;br&gt;&#xA;개발자 1년차에 &amp;lsquo;내가 개발자를 할 수 있을까?&amp;rsquo; 싶었던 고민이 있었지만, 어릴적부터 했던 활동들이 개발자가 가져야 하는 기질과 비슷한 것들이었다고 생각했고 지금 와서는 잘 선택한 길이라고 생각한다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;성격은-계속해서-바뀌어-왔다&#34;&gt;성격은 계속해서 바뀌어 왔다&lt;/h2&gt;&#xA;&lt;p&gt;부모님의 사업으로 스무살 이전에만 두 지역에서 8번 이사했다.&lt;br&gt;&#xA;초등학교는 3번 전학을 다녔고 늘 새로운 친구들, 사람들을 만나고 적응하는데 애쓰기도 했다.&lt;br&gt;&#xA;때때로 한 지역에 오래 정착하지 못했던 아쉬움도 있지만 자주 바뀌는 환경에 적응하는 것을 자연스럽게 배우게 된 것 같아&lt;br&gt;&#xA;스무살이 넘어 혼자 타지역으로 대학에 가거나 부모님과의 완전 독립도 어려움 없이 해낼 수 있었던 것 같다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/start-work.md",
+                "file": "content/blog/before-5-years.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "start-work"
+              "title": "before-5-years"
             }
           }
         ]
@@ -94,8 +94,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/blog/start-work.md",
-                "collapseAll": false,
+                "file": "content/blog/before-5-years.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "start-work 의 백링크"
+              "title": "before-5-years 의 백링크"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/start-work.md",
+                "file": "content/blog/before-5-years.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "start-work 의 나가는 링크"
+              "title": "before-5-years 의 나가는 링크"
             }
           },
           {
@@ -142,21 +142,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/start-work.md",
+                "file": "content/blog/before-5-years.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "start-work 의 개요"
+              "title": "before-5-years 의 개요"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,34 +170,35 @@
   },
   "active": "d4cd657fee86cb38",
   "lastOpenFiles": [
-    "public/tags/test/index.xml",
-    "public/tags/test/index.html",
-    "public/tags/test",
+    "public/tags/recore/index.xml",
+    "public/tags/recore/index.html",
+    "public/tags/recore",
+    "public/blog/before-5-years/index.html",
+    "public/blog/before-5-years",
+    "public/blog/after-5-years/index.html",
+    "public/blog/after-5-years",
+    "content/blog/how-docker-works.md",
+    "content/blog/before-5-years.md",
+    "public/blog/after-5/index.html",
+    "public/blog/after-5",
+    "public/blog/무제/index.html",
+    "public/blog/무제",
+    "content/blog/start-work.md",
     "public/blog-images/start-work-1.png",
-    "public/blog-images",
     "content/blog-images/start-work-1.png",
-    "content/blog-images",
     "content/images/start-work-1.png",
-    "content/images",
     "public/blog/images/start-work-1.png",
-    "public/blog/images",
     "content/blog/images/start-work-1.png",
-    "content/blog/images",
     "images/start-work-1.png",
-    "images",
-    "public/blog/how-docker-works/index.html",
-    "public/blog/how-docker-works",
     "assets/images/start-work-1.png",
     "content/blog/Template.md",
     "content/blog/\btime-blocking.md",
     "content/blog/what-is-docker.md",
     "real-worker.md",
-    "content/blog/start-work.md",
     "assets/images/Screenshot 2025-03-27 at 4.22.56 PM.png",
     "assets/images/real-worker.png",
     "content/blog/the-importance-of-time-allocation-in-meetings.md",
     "content/blog/meeting.md",
-    "content/blog/how-docker-works.md",
     "content/blog/docker.md",
     "content/blog/axios-instance-interceptor-method.md",
     "content/blog/도커란 무엇인가?.md",

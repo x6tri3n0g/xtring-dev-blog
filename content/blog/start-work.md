@@ -1,5 +1,5 @@
 +++ 
-title= "프로젝트의 첫 단추를 잘 끼우는 것(for FE)" 
+title= "프로젝트의 첫 단추를 잘 끼우는 방법(for FE)" 
 date= 2025-03-18
 tags= ["records"] 
 draft= false 
