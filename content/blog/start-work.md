@@ -5,7 +5,7 @@ tags= ["records"]
 draft= false 
 +++
 
-![[real-worker.png]]
+![가짜바쁨vs진짜바쁨](../../assets/images/real-worker.png)
 
 # 0. 개발을 시작하기 전에
 
