@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8ea66d21c502071d",
+        "id": "cc9c68caf163da4e",
         "type": "tabs",
         "children": [
           {
-            "id": "da61db7b5f735199",
+            "id": "d4cd657fee86cb38",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/blog/start-work.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "start-work"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/blog/start-work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "start-work 의 백링크"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/blog/start-work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "start-work 의 나가는 링크"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "content/blog/start-work.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "start-work 의 개요"
             }
           }
         ]
@@ -161,8 +168,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "da61db7b5f735199",
+  "active": "d4cd657fee86cb38",
   "lastOpenFiles": [
+    "content/blog/Template.md",
+    "content/blog/\btime-blocking.md",
+    "content/blog/what-is-docker.md",
+    "real-worker.md",
+    "content/blog/start-work.md",
+    "assets/images/Screenshot 2025-03-27 at 4.22.56 PM.png",
+    "assets/images/real-worker.png",
+    "assets/images",
+    "content/blog/the-importance-of-time-allocation-in-meetings.md",
+    "content/blog/meeting.md",
+    "content/blog/\btime-blocking",
     "content/blog/how-docker-works.md",
     "content/blog/docker.md",
     "content/blog/axios-instance-interceptor-method.md",
@@ -173,12 +191,8 @@
     "public/blog/what-is-docker",
     "public/blog/template/index.html",
     "public/blog/template",
-    "content/blog/what-is-docker.md",
     "content/blog/도커란 무엇인가?.md",
-    "content/blog/Template.md",
     "content/blog/FE/axios-instance-interceptor-method.md",
-    "public/blog/fe/axios-instance-interceptor-method/index.html",
-    "public/blog/fe/axios-instance-interceptor-method",
-    "public/blog/fe"
+    "public/blog/fe/axios-instance-interceptor-method/index.html"
   ]
 }

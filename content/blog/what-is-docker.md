@@ -1,7 +1,7 @@
 +++ 
 title= "1. 도커란 무엇인가?" 
 date= 2025-04-20
-tags= ["post"] 
+tags= ["docker"] 
 draft= false 
 +++
 

@@ -1,7 +1,7 @@
 +++ 
 title= "2. 도커의 동작 원리" 
 date= 2025-04-21
-tags= ["post"] 
+tags= ["docker"] 
 draft= false 
 +++
 
