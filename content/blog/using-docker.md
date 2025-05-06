@@ -1,8 +1,8 @@
 +++ 
-title= "3. 도커를 시작해보자" 
+title= "3. 도커를 사용해보자" 
 date= 2025-05-05
 tags= ["docker"] 
-draft= true 
+draft= false
 +++
 
 ## Section 01) 도커를 사용하려면

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/start-docker.md",
+                "file": "content/blog/run-the-container.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "start-docker"
+              "title": "run-the-container"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/start-docker.md",
+                "file": "content/blog/run-the-container.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "start-docker 의 개요"
+              "title": "run-the-container 의 개요"
             }
           }
         ],
@@ -170,9 +170,10 @@
   },
   "active": "d4cd657fee86cb38",
   "lastOpenFiles": [
+    "content/blog/using-docker.md",
+    "content/blog/run-the-container.md",
     "content/blog/start-work.md",
     "content/blog/Template.md",
-    "content/blog/start-docker.md",
     "public/blog/start-docker/index.html",
     "public/blog/start-docker",
     "content/blog/before-5-years.md",
